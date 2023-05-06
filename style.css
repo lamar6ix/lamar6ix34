@@ -54,29 +54,29 @@ main img{
     /* margin: auto; */
     text-align: center;
 }
-.main-inner{
+.main-inner p{
     color: white;
     text-align: center;
 }
-.main-container button{
-    width: 60%;
+.main-inner button{
+    width: 70%;
     height: 2rem;
     border-radius: 20px;
     margin: auto;
     border: none;
     color: hsl(300, 69%, 71%);
-    font-size: 12px;
+    font-size: 13px;
     
 }
 .footer{
-    margin: 3rem;
-    text-align: center;
+    /* margin: 3rem;
+    text-align: center; */
 }
 /* Footer style starts next */
 .footer{
     /* display: flex; */
     /* justify-content: space-between; */
-    margin-top: 3rem;
+    margin-top: 4rem;
     text-align: center;
     margin-bottom: 2rem;
 }
