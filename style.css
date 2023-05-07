@@ -93,3 +93,63 @@ main img{
     /* font-size: 3rem; */
     padding: 15px;
 }
+@media (min-width:1024px) {
+    body{
+        background: url(/assests/bg-desktop.svg) no-repeat hsl(257, 40%, 49%);
+        /* min-height: 100vh; */
+        font-family: 'Open Sans', sans-serif;
+    }
+    .container{
+        width: 85%;
+        margin:auto;
+    }
+    
+    
+    header img{
+        width: 18%;
+    }
+    .header{
+        margin-top: 1rem;
+    }
+    
+    .main-container{
+        margin-top: 5rem;
+        width: 85%;
+        height: 25rem;
+        /*display: flex  */
+        flex-direction: row;
+        align-items: center;
+        /* justify-content:space-between */
+    
+    }
+    main img{
+        width:57%;
+    }
+    .main-inner{
+        width:40%;
+        /* display: flex */
+        /* flex-direction column */
+        /* justify-content: space-between */
+        /* height:20rem; */
+        /* gap: 20px; */
+    }
+    .main-inner h2{
+        /* font-family: 'Poppins', sans-serif; */
+        /* color: white; */
+        text-align: start;
+        /* width: 90%; */
+        font-size: 2rem;
+    }
+    .main-container p{
+        color: white;
+        text-align: start;
+    }
+    .footer{
+
+        text-align: end;
+        margin-top: 2.4rem;
+    }
+}
+
+
+
